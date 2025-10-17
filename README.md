@@ -1,5 +1,72 @@
 # 💫 About Me:
-🛠 I’m currently working on: Netflix Data Analysis Project using Python and Pandas<br><br>🤝 I’m looking to collaborate on: Data visualization and machine learning projects<br><br>👋 I’m looking for help with: Optimizing Python code and data cleaning techniques<br><br>🌱 I’m currently learning: Advanced Python, SQL, and Machine Learning<br><br>💬 Ask me about: Data analysis, Python programming, and project building<br><br>⚡ Fun fact: I love exploring trends in movies and shows on Netflix!
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Animated SVG Intro — Aniket Chakraborty</title>
+  <style>
+    body{display:grid;place-items:center;height:100vh;margin:0;background:#0b1020;font-family:Inter,system-ui,Arial}
+    .svg-wrap{width:min(900px,92%);}
+    svg{width:100%;height:auto;display:block}
+  </style>
+</head>
+<body>
+  <div class="svg-wrap">
+    <svg viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hi, I'm ANIKET CHAKRABORTY">
+      <defs>
+        <linearGradient id="g" x1="0" x2="1">
+          <stop offset="0%" stop-color="#00d4ff" />
+          <stop offset="50%" stop-color="#6b5cff" />
+          <stop offset="100%" stop-color="#ff6b88" />
+        </linearGradient>
+        <style>
+          .bg{fill:#071029}
+          .greeting{font:700 20px/1.1 Inter, Arial; fill:#cfeaff}
+          .typed{font:800 34px/1 Inter, Arial; fill:url(#g);}
+          .cursor{fill:#ffffff}
+        </style>
+      </defs>
+
+      <rect class="bg" width="100%" height="100%" rx="12"/>
+
+      <text x="36" y="42" class="greeting">👋 Hi there,</text>
+
+      <g transform="translate(36,100)">
+        <text class="typed" x="0" y="0">I'm <tspan id="name" dy="0"></tspan></text>
+      </g>
+
+      <g id="nameChars" transform="translate(120,100)">
+        <text font-family="Inter, Arial" font-weight="800" font-size="34" fill="url(#g)">
+          <tspan x="0" dy="0" opacity="0">A<animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">N<animate attributeName="opacity" from="0" to="1" begin="0.88s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">I<animate attributeName="opacity" from="0" to="1" begin="0.96s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">K<animate attributeName="opacity" from="0" to="1" begin="1.04s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">E<animate attributeName="opacity" from="0" to="1" begin="1.12s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">T<animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="8" opacity="0"> </tspan>
+          <tspan dx="8" opacity="0">C<animate attributeName="opacity" from="0" to="1" begin="1.36s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">H<animate attributeName="opacity" from="0" to="1" begin="1.44s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">A<animate attributeName="opacity" from="0" to="1" begin="1.52s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">K<animate attributeName="opacity" from="0" to="1" begin="1.60s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">R<animate attributeName="opacity" from="0" to="1" begin="1.68s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">A<animate attributeName="opacity" from="0" to="1" begin="1.76s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">B<animate attributeName="opacity" from="0" to="1" begin="1.84s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">O<animate attributeName="opacity" from="0" to="1" begin="1.92s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">R<animate attributeName="opacity" from="0" to="1" begin="2.00s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">T<animate attributeName="opacity" from="0" to="1" begin="2.08s" dur="0.05s" fill="freeze"/></tspan>
+          <tspan dx="5" opacity="0">Y<animate attributeName="opacity" from="0" to="1" begin="2.16s" dur="0.05s" fill="freeze"/></tspan>
+        </text>
+      </g>
+
+      <rect x="720" y="66" width="5" height="26" rx="2" class="cursor">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+
+    </svg>
+  </div>
+</body>
+</html>
 
 
 # 💻 Tech Stack:
