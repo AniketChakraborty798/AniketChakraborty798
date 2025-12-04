@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm ANIKET CHAKRABORTY</h1>
-<h3 align="center">A passionData Analyst in Training | Visualizing Trends | Python Loverloper from India</h3>
+<h3 align="center">A passionData Analyst in Training | Visualizing Trends | Python Developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aniketchakraborty798&label=Profile%20views&color=0e75b6&style=flat" alt="aniketchakraborty798" /> </p>
 
